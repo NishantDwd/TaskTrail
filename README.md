@@ -161,16 +161,6 @@ The application is fully responsive and works seamlessly across:
 - **Tablet** (768px - 1199px)
 - **Mobile** (320px - 767px)
 
-## 🔧 Configuration
-
-### Environment Variables
-Create a `.env.local` file for environment-specific configuration:
-
-```env
-NEXT_PUBLIC_APP_NAME=TaskTrail
-NEXT_PUBLIC_APP_VERSION=1.0.0
-NEXT_PUBLIC_ENABLE_ANALYTICS=true
-```
 
 ### Customization
 - **Colors**: Modify `tailwind.config.js` for custom color schemes
@@ -179,10 +169,9 @@ NEXT_PUBLIC_ENABLE_ANALYTICS=true
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
-1. Connect your GitHub repository to Vercel
-2. Configure environment variables
-3. Deploy automatically on push
+### Render (Recommended)
+1. Connect your GitHub repository to Render
+2. Deploy automatically on push
 
 ### Other Platforms
 The application can be deployed to any platform that supports Next.js:
